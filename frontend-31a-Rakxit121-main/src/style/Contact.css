@@ -1,0 +1,147 @@
+
+.content_contact{
+    height: 100vh;
+  }
+  
+  /* Container styles */
+  .contact-form-container-main {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  
+  .contact-form-container {
+    /* width: 100%; */
+    display: flex;
+  
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  /* Form styles */
+  .contact-form-info {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    background: white;
+    padding: 1%;
+    box-sizing: border-box;
+  
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0);
+  }
+  
+  /* Header and Description styles */
+  .header,
+  .description {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+  }
+  
+  .header {
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .description {
+    width: 80%;
+    text-align: center;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  /* Info container styles */
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Info styles */
+  .address, .working-time, .phone {
+    width: 30%;
+  }
+  
+  /* Label and Info text styles */
+  .label,
+  .info {
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+  }
+  
+  .label {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  /* Add more styles for your form components based on your needs */
+  /* Form container styles */
+  .form-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* Input styles */
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px #9F9F9F solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Helper text styles */
+  .helper-text {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  
+  /* Submit button styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }

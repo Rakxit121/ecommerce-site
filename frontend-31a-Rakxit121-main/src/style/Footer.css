@@ -1,0 +1,55 @@
+/* Footer.css */
+
+.footer-04 {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  
+}
+
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  max-width: 500px; /* Set a maximum width for the menu container */
+  margin: 0 auto; /* Center the menu container */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.menu a {
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.ftco-footer-social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  display: block;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Add more styling as needed */

@@ -1,0 +1,12 @@
+.edit-product-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .update-product-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  

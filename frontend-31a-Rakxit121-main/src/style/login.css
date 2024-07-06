@@ -1,0 +1,116 @@
+.row_login{
+    display: flex;  
+    margin: 15px auto;
+}
+.container_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f5f5f5; /* Set your desired background color */
+  }
+  
+  .hover-lazy-felix {
+    position: relative;
+    overflow: hidden;
+    width: 45%;
+    margin: 1%;
+  }
+  
+  .hover-lazy-felix img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-lazy-felix:hover img {
+    transform: scale(1.1); /* Adjust the scale factor for hover effect */
+  }
+  
+  .contents_login {
+    background-color: #ffffff; /* Set your desired background color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 1%
+  }
+  
+  .contents_login h3 {
+    color: #333333; /* Set your desired text color */
+  }
+  
+  .contents_login p {
+    color: #666666; /* Set your desired text color */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057; /* Set your desired text color */
+    background-color: #ffffff; /* Set your desired background color */
+    background-clip: padding-box;
+    border: 1px solid #ced4da; /* Set your desired border color */
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #80bdff; /* Set your desired border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Set your desired box shadow on focus */
+  }
+  
+  .btn-primary {
+    color: #ffffff; /* Set your desired text color */
+    background-color: #007bff; /* Set your desired background color */
+    border-color: #007bff; /* Set your desired border color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Set your desired background color on hover */
+    border-color: #0056b3; /* Set your desired border color on hover */
+  }
+  
+  .forgot-pass {
+    color: #007bff; /* Set your desired link color */
+  }
+  
+  .forgot-pass:hover {
+    text-decoration: underline;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-login a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #ffffff; /* Set your desired social icon color */
+    background-color: #333333; /* Set your desired social icon background color */
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .social-login a:hover {
+    background-color: #555555; /* Set your desired background color on hover */
+  }
+  
+  /* Media query for responsiveness */
+@media (max-width: 840px) {
+    .hover-lazy-felix {
+      display: none;
+    }
+    .contents_login{
+        margin: 5%;
+    }
+  }
